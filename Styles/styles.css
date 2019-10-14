@@ -10,8 +10,16 @@ h1{
 h2{
     color: green;
     font-size: 20px;
+
     
     
+    
+}
+
+header p {
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
 }
 
 .red-heading {
