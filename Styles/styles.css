@@ -16,7 +16,6 @@ h1{
 
 
  
-}
 
 header p {
     font-weight: bold;
@@ -39,12 +38,12 @@ footer {
 main {
     background-color: hotpink;
     border:black solid thin;
-    padding left: 5px
+    padding left: 5px;
     border-radius: 8px;
    
 
 
-}
+
          
 
 figure.left {
