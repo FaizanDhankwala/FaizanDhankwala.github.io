@@ -9,14 +9,13 @@ h1{
 
 }
 
-h2{
-    color: green;
-    font-size: 20px;
+
+    
   
     
 
-}
-    
+
+ 
 }
 
 header p {
@@ -35,11 +34,23 @@ footer {
     border: black solid thin;
     padding-left: 5px;
     border-radius: 8px;
+
 }
+main {
+    background-color: hotpink;
+    border:black solid thin;
+    padding left: 5px
+    border-radius: 8px;
+   
+
+
+}
+         
 
 figure.left {
     float: left;
 }
+
 
 .red-heading {
     color:red;
@@ -54,3 +65,10 @@ figure.left {
     font-family:fantasy, cursive, serif;
 
 }
+figcaption {
+   
+font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: left;
+}
+
