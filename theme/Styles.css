@@ -9,24 +9,37 @@ h1{
  float: left;
 }
 
-figure.border {
+figure.left{
     background-color: lightslategray;
     border: black solid thin;
     padding: 5px;
-}     
 
-    
-figure.left {
-    float: left;
-   }
+}
+   
+
+
+
    
   
         
 
+figure.left{
+    float: left;
+}
     
    
 
 }
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    
+        
+
 
 
   
@@ -79,7 +92,7 @@ main {
 }
 figcaption {
    
-font: italic smaller sans-serif;
+font: bold smaller sans-serif;
     padding: 3px;
     text-align: left;
 }
