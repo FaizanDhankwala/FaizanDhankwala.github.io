@@ -6,18 +6,19 @@ h1{
     color: blue;
     font-size: 50px;
   
-}
+} 
 
-figure.border {
+    
+figure.right {
+    float: left;
+   }
+
+   
+   figure.border {
     background-color: lightslategray;
     border: black solid thin;
     padding: 5px;
-}     
-
-    
-figure.left {
-    float: left;
-   }
+}                    
  
 
     
