@@ -5,7 +5,9 @@ body{ background-color: aquamarine
 h1{
     color: blue;
     font-size: 50px;
+    background-color:chartreuse;
   
+<<<<<<< HEAD
 } 
 
     
@@ -20,10 +22,17 @@ figure.right {
     padding: 5px;
 }                    
  
+=======
+}
+
+       
+>>>>>>> d908e575cd9049c6a3c16d8380a5a4e9d4c9703f
 
     
-   
 
+ figure{
+     float: left;
+ }
 
 
 
@@ -39,11 +48,12 @@ header {
 
 }
 
-footer {
-    background-color: yellow;
+footer{
+    background-color:yellow;
     border: black solid thin;
-    padding-left:5px;
-    border-radius:8px;
+    padding-left:10px;
+    border-radius:1px;
+   
 
 }
 main {
@@ -51,6 +61,7 @@ main {
     border:black solid thin;
     padding left: 5px;
     border-radius: 8px;
+    
    
 }
    
@@ -70,8 +81,28 @@ figcaption {
    
 font: italic smaller sans-serif;
     padding: 3px;
-    text-align: left;
+    
 }
+                
+nav {        
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+    
                
        
 
