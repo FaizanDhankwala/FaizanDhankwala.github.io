@@ -7,9 +7,20 @@ h1{
     font-size: 50px;
     background-color:chartreuse;
   
+} 
+
+    
+
+   
+   figure.border {
+    background-color: lightslategray;
+    border: black solid thin;
+    padding: 5px;
+}                    
+ 
 }
 
- 
+       
 
     
 
