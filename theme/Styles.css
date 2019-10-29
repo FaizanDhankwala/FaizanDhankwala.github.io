@@ -98,6 +98,6 @@ font: bold smaller sans-serif;
 }
                
        
-.figure{
-    float: left;
+figure.right{
+    float: right;
 }
