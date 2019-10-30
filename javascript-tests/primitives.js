@@ -14,7 +14,7 @@ let newChangableStyly= "This allows you to declare a variable that can be change
 const constantVariable = "This variable can not changed. Except...";
 
 
-const quotable = 'He siad,, "Hello". That\'s all folks.';
+const quotable = 'He siad, "Hello". That\'s all folks.';
 
 console.log(myString);
 console.log('TYPE:',typeof myString);
