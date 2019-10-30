@@ -18,7 +18,7 @@ const quotable = 'He siad, "Hello". That\'s all folks.';
 
 console.log(myString);
 console.log('TYPE:',typeof myString);
-console.log('TYPE:',myfirstNumericVariable);
+console.log('TYPE:',typeof myfirstNumericVariable);
 console.log('TYPE:',typeof myfirstNumericVariable);
 console.log(myBoolean);
 console.log('TYPE:',typeof myBoolean);
@@ -27,4 +27,4 @@ console.log('TYPE:',typeof myNull);
 console.log(myUndefined);
 console.log('TYPE:',typeof myUndefined);
 console.log('Add 3 + 25:',myFirstNumericVariable + 25);
-console.log('Add undefined')myUndefined + 25)
+console.log('Add undefined',myUndefined + 25);
