@@ -27,6 +27,9 @@ if (( x < 1 ) && ( 5 === y )) {
     console.log("FAILED: x is not smaller than one or 5 does not equal y")
 }
 
+(2 == '2')
+(2 === '2')
+
 // Notice that each expression is wrapped in a parenthesis
 // Notice that both expressions are wrapped in parenthesis
 if ( (5 === y) || (x < 1) ) {
