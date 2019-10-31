@@ -23,9 +23,6 @@ figure.left{
   
         
 
-figure.left{
-    float: left;
-}
     
    
 
@@ -37,6 +34,11 @@ figure {
     padding: 5px;
     max-width: 220px;
     margin: auto;
+}
+
+figure.left{
+    float: left;
+}
     
         
 
@@ -97,8 +99,3 @@ font: bold smaller sans-serif;
     text-align: left;
 }
                
-       
-figure.right{
-
-float: right;
-}
