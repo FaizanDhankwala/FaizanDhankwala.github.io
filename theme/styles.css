@@ -98,4 +98,8 @@ font: bold smaller sans-serif;
     padding: 3px;
     text-align: left;
 }
+
+figure.right{
+    float: right;
+}
                
