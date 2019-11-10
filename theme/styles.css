@@ -36,7 +36,9 @@ figure {
     margin: auto;
 }
 
-
+figure.left{
+    float: left;
+}
     
         
 
