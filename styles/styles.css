@@ -1,5 +1,5 @@
 
-body{ background-color: aquamarine;
+body{ background: radial-gradient(blue,red);
     margin: auto;
     max-width: 500px;
 
@@ -10,9 +10,9 @@ body{ background-color: aquamarine;
 }
 
 h1{
-    color: blue;
+    color: radial-gradient(red,black);
     font-size: 50px;
-    background-color:chartreuse;
+    background-color:white;
   
 } 
 
@@ -45,7 +45,7 @@ h1{
     
 }
 header {
-    background-color: chartreuse;
+    background-color: red;          
 
 }
 
@@ -58,7 +58,7 @@ footer{
 
 }
 main {
-    background-color: hotpink;
+    background-color:pink;      
     border:black solid thin;
     padding left: 5px;
     border-radius: 8px;
