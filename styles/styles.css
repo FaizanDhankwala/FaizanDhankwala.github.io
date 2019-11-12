@@ -1,5 +1,5 @@
 
-body{ background: radial-gradient(blue,red);
+body{ background: linear-gradient(blue,red);
     margin: auto;
     max-width: 500px;
 
@@ -10,7 +10,7 @@ body{ background: radial-gradient(blue,red);
 }
 
 h1{
-    color: radial-gradient(red,black);
+    color: linear-gradient(red,black);
     font-size: 50px;
     background-color:white;
   
