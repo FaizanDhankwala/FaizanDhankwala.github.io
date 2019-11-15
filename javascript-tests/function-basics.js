@@ -11,6 +11,11 @@ functionCallsAction.onclick = simpleFunction;
  function simpleFunction(){
     console.log("functions should consist of statements designed to perform a single task.")
     simpleFunctionDisplay.textContent = "simple";
+
+    function simple() {
+        console.log('simple');
+        simpleFunctionDisplay.textContent = "simple";
+    }
     
 }   
 //simpleFunction();
