@@ -48,3 +48,8 @@ someAction.onclick = function() {
     // Handle the onclick event in here.
 }
 
+document.getElementById('addToListAction');
+
+document.getElementById('listDisplay');
+document.getElementById('nameDisplay').value
+
