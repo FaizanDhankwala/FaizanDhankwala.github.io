@@ -37,6 +37,7 @@ h1{
 
 
 
+
   
     header p {
     font-weight: bold;
@@ -154,4 +155,13 @@ aside {
     border: 1px;
     color: black;
     style: solid;
-} 
+
+}
+ section.clear{
+    clear: both;
+}
+
+
+section{
+    clear: both;
+}
