@@ -20,7 +20,7 @@ FunctionObject.prototype.sayName= function(){
 } 
 };
 
-class CustonClass{
+class CustomClass{
  sayName(){
      console.log('CustomClass');
  }
@@ -31,5 +31,5 @@ simpleObject.dynamicMethod();
 const functionObject= new FunctionObject();
 functionObject.sayName();
 
-const customClass= new CustonClass();
+const customClass= new CustomClass();
 customClass.sayName();
