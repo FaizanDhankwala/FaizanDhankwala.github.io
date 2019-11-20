@@ -14,7 +14,7 @@ var calculator={
  z = x + y,
  z= y - x,
 };
-calculator.operand01 = person.firstName.length;
+calculator.operand01 = person.firfunctistName.length;
 
 
 
