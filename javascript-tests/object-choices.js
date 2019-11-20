@@ -10,7 +10,7 @@ window.onload = () => {
         lastName: "Watson",
         sayName: function () {
 
-            console.log(this.firstName + " " + this.lastName);
+            const fullName =this.firstName + " " + this.lastName);
             console.log(fullName);
             simpleObjectDisplay.textContent = fullName;
         }
