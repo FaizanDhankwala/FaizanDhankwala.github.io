@@ -1,5 +1,5 @@
 window.onload = () => {
-    // All code goes in here.
+
     const elfCode = {
         appendToList: (list, value) => {
             const li = document.createElement("li");
@@ -7,59 +7,45 @@ window.onload = () => {
             list.appendChild(li);
         }
     }
-    
 
     const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
     const functionCallsAction = document.getElementById('functionCallsAction');
-    const addToListAction = document.getElementById('addToListAction');
-    functionCallsAction.onclick = simpleFunction;
-
+    const someAction = document.getElementById('someAction');
 
 
     function simpleFunction() {
-        console.log("functions should consist of statements designed to perform a single task.")
-        simpleFunctionDisplay.textContent = "simple";
-
-        function simple() {
-            console.log('simple');
-            simpleFunctionDisplay.textContent = "simple";
-        }
-       
+        console.log("functions should consist of statements designed to perform a single task.");
     }
-    addToListAction.onclick = function () {
+
+    
+
+    const functionParametersDisplay = document.getElementById('functionParametersDisplay');
+
+    function functionParameters() {
+        console.log("Many functions take parameters.");
+        functionParametersDisplay.textContent = "Many functions take parameters.";
+    }
+
+    const functionReturnDisplay = document.getElementById('functionReturnDisplay');
+
+    function functionReturn() {
+        console.log("Many functions return values.");
+        simpleFunctionDisplay.textContent = "Functions should consist of statements designed to perform a single task.";
+        functionParametersDisplay.textContent = "Many functions take parameters.";
+        functionReturnDisplay.textContent = "Many functions return values";
+    }
+
+    //functionCallsAction.onclick = simpleFunction;
+    //functionCallsAction.onclick = functionParameters;
+    functionCallsAction.onclick = functionReturn;
+
+    someAction.onclick = function () {
         // Handle the onclick event in here.
-         const listDisplay= document.getElementById('listDisplay');
-        const nameDisplay=document.getElementById('nameDisplay');
-        const userInput=nameDisplay.value;
-        console.log('userInput',userInput);
-        elfCode.appendToList(listDisplay,userInput);
+        const listDisplay = document.getElementById('listDisplay');
+        const nameDisplay = document.getElementById('nameDisplay');
+        const userInput = nameDisplay.value;
+        console.log('userInput', userInput);
+        elfCode.appendToList(listDisplay, userInput);
     }
-    //simpleFunction();
-}
-function functionParameters(value) {
-    console.log(value);
-}
-function functionReturn() {
-    return "Many functions return values.";
 
-}
-
-function add(a, b) {
-    return a + b;
-}
-
-functionParameters("Many functions take parameters.");
-const returnValue = functionReturn();
-console.log(returnValue);
-
-const result = add(2, 3);
-console.log(result);
-
-//const data = nameDisplay.value;         
-
-
-
-
-
-
-
+}   
