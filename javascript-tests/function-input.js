@@ -1,5 +1,8 @@
+const feetPerMile = 5280;
+
 window.onload = () => {
-    const feetToInchesAction =
+
+    const feetToInchesAction = 
         document.getElementById('feetToInchesAction');
 
     feetToInchesAction.onclick = () => {
@@ -9,50 +12,54 @@ window.onload = () => {
         feetToInchesDisplay.textContent = feetToInches(feetToInchesInput.value);
     }
 
-    const milesToFeetAction =
-        document.getElementById('milesToFeetAction');
+    const milesToFeetAction = 
+    document.getElementById('milesToFeetAction');
 
     milesToFeetAction.onclick = () => {
         const milesToFeetInput = document.getElementById('milesToFeetInput');
         const milesToFeetDisplay = document.getElementById('milesToFeetDisplay');
 
         milesToFeetDisplay.textContent = milesToFeet(milesToFeetInput.value);
-    };
-    const areaOfTriangleAction =
-        document.getElementById('areaOfTriangleAction');
+    }
+    
+    const areaOfTriangleAction = 
+    document.getElementById('areaOfTriangleAction');
 
     areaOfTriangleAction.onclick = () => {
-        const areaOfTriangleInput = document.getElementById('areaOfTriangleInput');
+        const areaOfTriangleInputBase = document.getElementById('areaOfTriangleInputBase');
+        const areaOfTriangleInputHeight = document.getElementById('areaOfTriangleInputHeight');
         const areaOfTriangleDisplay = document.getElementById('areaOfTriangleDisplay');
 
-        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
-    };
-    const areaOfCircleAction =
-        document.getElementById('areaOfCircleAction');
+        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInputBase.value, areaOfTriangleInputHeight.value);
+    }
+
+    const areaOfCircleAction = 
+    document.getElementById('areaOfCircleAction');
 
     areaOfCircleAction.onclick = () => {
         const areaOfCircleInput = document.getElementById('areaOfCircleInput');
         const areaOfCircleDisplay = document.getElementById('areaOfCircleDisplay');
 
         areaOfCircleDisplay.textContent = areaOfCircle(areaOfCircleInput.value);
-    };
-
-};
-
-
+    }
+    
+}
 
 const feetToInches = (feet) => {
     return feet * 12;
-};
+}
 
 const milesToFeet = (miles) => {
-    return miles * 5280;
-};
+    return miles * feetPerMile;
+}
 
 const areaOfTriangle = (base, height) => {
-    return base * height;
-};
+let area = (base * height) / 2;
+return area;
+}
 
 const areaOfCircle = (radius) => {
-    return Math.PI * radius * radius;
-};
+    let piR = Math.PI * radius;
+    let area = piR * piR;
+    return area;
+}
