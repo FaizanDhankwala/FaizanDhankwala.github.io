@@ -7,7 +7,7 @@ arrays.numbers.sort((a, b) => a - b);
 const techLanguages = {
 
 
-    languages: ["JavaScript", "HTML", "CSS", "Java", "C#", "Python", "C/C++"]
+    languages: ["JavaScript", "HTML", "CSS",   "Python",]
 };
 
 
@@ -21,14 +21,8 @@ const languageRanking = [
         language: " HTML",
         rank: 2
     },
-    {
-        language: " Bash/Shell",
-        rank: 6
-    },
-    {
-        language: " SQL",
-        rank: 4
-    },
+
+ 
     {
         language: " JavaScript",
         rank: 1
@@ -41,14 +35,11 @@ const languageRanking = [
     },
     {
         language: " Python",
-        rank: 7
+        rank: 4
 
 
     },
-    {
-        language: " Java",
-        rank: 5
-    }
+   
 
 
 ];
