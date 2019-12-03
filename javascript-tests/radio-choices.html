@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="../styles/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/radio-choices.css" />
+    <link rel="shortcut icon" href="../images/New favicon.png" type="image/png" />
+    <script src="radio-choices.js"></script>
     <title>Radio Choices Dhankwala</title>
-    
- <link href="../styles/styles.css" rel="stylesheet" >
+    <a href="../index.html">Home Site</a>
 
- <script src="../javascript-tests/radio-choices.js"></script>
-
-<header>
-    <h1>
-        Radio Choices
-    </h1>
-</header>
-    
 </head>
-<body>
-    <main>
-        <p>
-            by FAIZAN DHANKWALA
-        </p>
 
-        <fieldset>
-            <section>
-            <legend>The User Selection</legend>
-        <p>
-            <b>User Choice</b>: <span id="user-choice">Unknown</span>
-        </p>
-        </fieldset>
-    </section>
+<body>
+    <header>
+        <h1>
+            Radio Choices Dhankwala
+        </h1>
+    </header>
+    <main>
+
+        <section>
+            <fieldset>
+                <legend>The User Selection</legend>
+                <p><b>User choice</b>: <span id="user-choice">Unknown</span></p>
+            </fieldset>
+        </section>
+
+        <section id="form-section">
+            <fieldset>
+                <legend>Our Form</legend>
+                <form id="sort-type" action="goThere">
+                    <input type="radio" id="red" name="sorter" value="Red" checked />
+                    <label for="red">Red</label>
+                    <input type="radio" id="green" name="sorter" value="Green" />
+                    <label for="green">Green</label>
+                    <input type="radio" id="blue" name="sorter" value="Blue" />
+                    <label for="blue">Blue</label>
+                    <input type="radio" id="yellow" name="sorter" value="Yellow" />
+                    <label for="yellow">Yellow</label>
+                    <input type="radio" id="purple" name="sorter" value="Purple" />
+                    <label for="purple">Purple</label>
+                    <input type="radio" id="normal" name="sorter" value="Reset to Normal" />
+
+                    <label for="normal">Reset to Normal</label>
+                    <div>
+                        <button class="btn-padding" type="submit" value="Submit">Choose the Color</button>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
     </main>
-    
+
+    <footer>
+        <p>
+            Copyright © 2019 by Faizan Dhankwala
+        </p>
+    </footer>
+
 </body>
+
 </html>

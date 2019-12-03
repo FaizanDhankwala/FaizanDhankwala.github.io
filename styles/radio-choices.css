@@ -1,0 +1,43 @@
+.blueBackground {
+    background-color: #2b39b3;
+  }
+  
+  .greenBackground {
+    background-color: #00ff00;
+  }
+  
+  .redBackground {
+    background-color: rgb(230, 27, 27);
+  }
+  
+  .yellowBackground {
+    background-color:rgb(255, 255, 0);
+  }
+  
+  .purpleBackground {
+    background-color: #441e41;
+  }
+  
+  .normalBackground {
+    background-color: hotpink;
+  }
+  
+  .styled-button {
+    margin: 15px;
+    padding: 10px 50px;
+    box-shadow: 0px 5px 10px 2px gray;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #095e5e;
+  }
+  
+
+  #form-section {
+    margin-top: 10px;
+  }
+  
+
+
+
