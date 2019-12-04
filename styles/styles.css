@@ -37,8 +37,9 @@ h2{
 
     
 
- figure{
+ figure.left{
      float: left;
+     clear: both;
  }
 
 
