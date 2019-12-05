@@ -1,5 +1,4 @@
 window.onload = () => {
-   
     const elfCode = {
         appendToList: (list, value) => {
             const li = document.createElement("li");
@@ -7,14 +6,13 @@ window.onload = () => {
             list.appendChild(li);
         }
     };
-const listButton= document.getElementById('run-For-Loop');
-    listButton.onclick = function(){
+    const listButton = document.getElementById('runForLoopAction');
+
+    listButton.onclick = () => {
         const myList = document.getElementById('myList');
-           
-            elfCode.appendToList(myList, 1);
-            elfCode.appendToList(myList, 2);
-            elfCode.appendToList(myList, 3);
-          
+            for(let i=0; i<5; i++){
+
+                elfCode.appendToList(myList, i);
+            }
     }
 }
-

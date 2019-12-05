@@ -1,0 +1,205 @@
+
+body{ background: linear-gradient(blue,red);
+        margin: 50px;
+        max-width: 1000px;
+
+
+     
+
+
+}
+
+h1{
+    color: linear-gradient(red,black);
+    font-size: 50px;
+    background-color:white; 
+  
+} 
+
+h2{
+    color: linear-gradient(green,red, black);
+    font-size: 25px;
+    background-color:white;
+}
+
+    
+
+   
+   figure.border {
+    background-color: lightslategray;
+    border: black solid thin;
+    padding: 5px;
+}                    
+ 
+}
+
+       
+
+    
+
+ figure.left{
+     float: left;
+     clear: both;
+ }
+
+
+
+
+  
+    header p {
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    
+}
+header {
+    background-color: red;          
+
+}
+
+footer{
+    background-color:yellow;
+    border: black solid thin;
+    padding-left:10px;
+    border-radius:1px;
+   
+
+}
+main {
+    background-color:pink;      
+    border:black solid thin;
+    padding left: 5px;
+    border-radius: 8px;
+    
+   
+}
+   
+
+
+.blue-text{
+    color:blue;
+}
+
+#new-font{
+    
+    font-family:fantasy, cursive, serif;
+   
+
+}
+figcaption {
+   
+font: italic smaller sans-serif;
+    padding: 3px;
+    
+}
+                
+nav {        
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+    
+}
+
+.btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+}                   
+
+.btn-margin-padding {
+   
+    margin: 25px;
+    border: 15px blue;
+    border-style: ridge;
+   
+} 
+
+#button-wrapper{
+    border: thin black solid;
+    display: inline-block;
+    background-color: aquamarine;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.btn-margin-padding:active {
+   background-color: red;
+}       
+
+
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
+                
+.elf-div-border {
+    border: 1px;
+    color: black;
+    style: solid;
+
+}
+ section.clear{
+    clear: both;
+}
+
+
+section{
+    clear: both;
+}
+
+#ford-raptor{
+    float: left;
+}
+
+#volvo-car{
+    float: right;
+}
+
+#jeep-wrangler{
+    float: left;
+    
+
+
+}
+
+#left{
+    float: left;
+}
+
+#ferrari{
+    float: left;
+}
+
+#epic{
+    float: right;
+}
+
+#bruh{
+    float: right;
+}
