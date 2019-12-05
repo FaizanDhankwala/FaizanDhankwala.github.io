@@ -203,3 +203,12 @@ section{
 #bruh{
     float: right;
 }
+
+
+#red-car{
+    float: left;
+}
+
+#blue-car{
+    float: right;
+}
